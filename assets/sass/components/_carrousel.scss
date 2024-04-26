@@ -1,0 +1,18 @@
+.carousel-comp {
+  margin: auto;
+
+  &__img {
+    height: 500px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel-comp {
+    &__img {
+      height: 300px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

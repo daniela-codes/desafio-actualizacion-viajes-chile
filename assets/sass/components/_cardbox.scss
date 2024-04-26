@@ -1,0 +1,24 @@
+.cardbox {
+  padding: 0;
+  background-color: $color-white;
+
+  &__img {
+    object-fit: cover;
+    image-rendering: smooth;
+    width: 200px;
+    height: 100%;
+  }
+  &__container {
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 767px) {
+  .cardbox {
+    &__img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

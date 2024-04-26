@@ -1,0 +1,12 @@
+@use "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "abstracts/variables.scss";
+
+@import "base/base.scss";
+
+@import "layout/navigation.scss";
+@import "layout/footer.scss";
+
+@import "components/carrousel.scss";
+@import "components/cardbox.scss";
+@import "components/testimonials.scss";

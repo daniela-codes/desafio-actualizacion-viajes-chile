@@ -1,0 +1,36 @@
+@import "../abstracts/_variables.scss";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: $color-dark-green;
+  color: $color-white;
+}
+/* Navbar transition */
+.logo,
+nav ul li,
+nav button {
+  transition: 1.5s;
+}
+.logo:hover,
+nav ul li:hover,
+nav button:hover {
+  transform: scale(1.2);
+}
+
+/* Text */
+h1,
+h2,
+h3 {
+  font-family: $Open-sans;
+  font-weight: 700;
+}
+P,
+a {
+  font-family: $Open-sans;
+  font-weight: 400;
+}

@@ -1,0 +1,19 @@
+.testimonials {
+  &__img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    border: $color-white 0.15rem solid;
+    transition: 1.5s;
+  }
+  &__img:hover {
+    filter: grayscale(75%);
+  }
+  &__text {
+    width: 15rem;
+    margin: 0.75rem auto;
+  }
+  &__name {
+    margin: 0.75rem auto;
+  }
+}
